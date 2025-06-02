@@ -84,9 +84,12 @@ nav ul li a:hover {
 .background-wrapper {
     position: absolute;
     left: 0;
-    padding: 10%;
+    /* padding: 10%; */
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image: url("./img/background.png");
     background-size: cover;
     background-repeat: no-repeat;
